@@ -1,0 +1,20 @@
+# Core app
+streamlit
+pandas
+numpy
+
+# Charts
+plotly
+
+# Excel support
+openpyxl
+xlrd   # for legacy .xls files; safe to keep
+
+# Optional but used in your auto-assignment page (Hungarian algo).
+# If build env can’t compile SciPy, comment this line out—the app will fall back to greedy.
+scipy
+
+# Gemini (themes extraction)
+google-generativeai>=0.7.2
+# Some build environments still need protobuf <5 for google-generativeai
+protobuf
